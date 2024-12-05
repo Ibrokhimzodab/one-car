@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: one-car
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/one_car
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+debug: true
